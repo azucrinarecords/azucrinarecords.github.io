@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -51,7 +51,7 @@
 
 <div id="footer">
 
-<p>- Page fueled by <a href="http://pommo.sourceforge.net/">poMMo</a> mailing management software -</p>
+<p>- Page fueled by <a href="https://pommo.sourceforge.net/">poMMo</a> mailing management software -</p>
 
 </div>
 <!-- end footer -->

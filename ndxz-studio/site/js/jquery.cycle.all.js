@@ -1,19 +1,19 @@
 /*
  * jQuery Cycle Plugin for light-weight slideshows
- * Examples and documentation at: http://malsup.com/jquery/cycle/
+ * Examples and documentation at: https://malsup.com/jquery/cycle/
  * Copyright (c) 2007 M. Alsup
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
  *
  * @author:   M. Alsup
  * @version:  1.6 (8/14/2007)
  * @requires: jQuery v1.1.3.1 or later
  *
  * Based on the work of:
- *  1) Matt Oakes (http://portfolio.gizone.co.uk/applications/slideshow/)
- *  2) Torsten Baldes (http://medienfreunde.com/lab/innerfade/)
- *  3) Benjamin Sterling (http://www.benjaminsterling.com/experiments/jqShuffle/)
+ *  1) Matt Oakes (https://portfolio.gizone.co.uk/applications/slideshow/)
+ *  2) Torsten Baldes (https://medienfreunde.com/lab/innerfade/)
+ *  3) Benjamin Sterling (https://www.benjaminsterling.com/experiments/jqShuffle/)
  */
 (function($) {
 
@@ -242,11 +242,11 @@ $.fn.cycle.defaults = {
 /*
  * jQuery Cycle Plugin Transition Definitions
  * This script is a plugin for the jQuery Cycle Plugin
- * Examples and documentation at: http://malsup.com/jquery/cycle/
+ * Examples and documentation at: https://malsup.com/jquery/cycle/
  * Copyright (c) 2007 M. Alsup
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
  *
  * @author:   M. Alsup
  * @version:  1.5 (8/13/2007)
