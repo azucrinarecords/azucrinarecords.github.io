@@ -1,0 +1,72 @@
+/**
+* CSS
+* 
+* @version 1.0
+* @author Vaska 
+* @author Felipe Turcheti
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	background: #fff;
+}
+
+body.section-1 { }
+body.section-2 { }
+body.section-3 { }
+
+a { color:red; text-decoration:underline }
+/*a:visited { text-decoration: none; color: #666; }*/
+a:hover { background:red; color:#fff; text-decoration:none; }
+
+a img { border: none; }
+
+#sidebar { position:absolute; top:30px; left:745px; width:135px; }
+#sidebar p { margin-bottom:30px; text-align:right; }
+#sidebar .logo { display:block; width:135px; height:240px; text-align:center; margin-bottom:30px; }
+#twitter_div { width:135px; text-align:right; display:block; white-space:wrap; text-overflow:ellipsis; margin-bottom:30px; }
+#twitter_div h3 { font-weight:normal; font-size:12px; display:block;  text-align:right; }
+#twitter_div h3 a { padding:1px 3px; margin:5px 0; }
+#twitter_div ul { list-style:none; }
+#twitter_div ul li { border-top:2px solid #000; margin:3px 0; }
+
+#newsletter { margin-bottom:20px; }
+#newsletter p { text-align:left; margin:0; padding:0; }
+#newsletter input { background:#fff; border:1px solid #000; padding: 2px; width:131px; font-size:10px; }
+#newsletter .news_button { padding:2px 10px; background:#000; color:#fff; width:30px; }
+
+#menu { width: 730px; position:absolute; top: 30px; left: 10px; height: 50px; z-index:4; }
+#menu p { float:left; }
+#menu ul { list-style: none; float:left; padding:0; }
+#menu ul li.section-title { font-size:14px; text-transform:lowercase; display:block; cursor:pointer; margin: 0 2px; background-color:#000; color:#fff; padding:1px 5px; }
+#menu ul.submenu { display:none; z-index:5; margin:10px 0 0 2px; background:#000; padding:7px 10px; }
+#menu ul:hover ul.submenu { display:inline; float:left;  }
+#menu a { text-decoration:none; color:#fff; }
+#menu ul.active li.section-title { background:red; }
+#menu ul.submenu li.active a { color:red; }
+.pre_hide { display:none; }
+
+#content { height: 100%; position:absolute; top:100px; margin: 0 350px 0 15px; width:600px }
+#content p { margin: 0 0 1em 0; line-height:1.2em; }
+#content img, #content object, #content iframe { margin-bottom:1em; }
+#content a { color:red; text-decoration:underline; }
+#content a:hover { background:red; color:#fff; text-decoration:none; }
+
+#az_blog { width:700px; height:600px; overflow:auto; }
+
+.container { padding: 0 0 25px 0; }
+object, embed { display:block; z-index:3; }
+h1 { font-size: 32px; }
+h2 { font-size: 24px; }
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+#img-container { margin: 0; padding: 0; }
+#img-container p { width: 400px; margin: 0; padding: 0 0 12px 0; }
+
+#once { clear: left; }

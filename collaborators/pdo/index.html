@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+
+<title>PDO : Azucrina Records</title>
+
+<link rel='stylesheet' href='/ndxz-studio/site/azrecs/style.css' type='text/css' />
+<!--[if lte IE 6]>
+<link rel='stylesheet' href='/ndxz-studio/site/azrecs/ie.css' type='text/css' />
+<![endif]-->
+
+<style type='text/css'>
+.grow { float:left; margin-bottom: 18px; }
+	.thumb {  padding:0; text-align:left; display: table; height: 220px; #position: relative; overflow: hidden; width: 220px; }
+
+	.grow strong { margin-top: 3px; text-align: left; display: block; font-weight: normal; text-align: center; }
+	.grow em { font-style: normal; display: none; text-align: center; }
+	
+	.thumb-it { #position: absolute; _top: 50%; display: table-cell; vertical-align: middle; text-align: center; }
+	.thumb-img { #position: relative; width: 220px; display:block; }
+</style>
+
+<script type='text/javascript' src='/ndxz-studio/site/js/jquery.js'></script>
+<script type='text/javascript' src='/ndxz-studio/site/js/cookie.js'></script>
+<script type='text/javascript' src='/ndxz-studio/site/js/grow.vaska.js'></script>
+
+<script type='text/javascript'>
+	path = '/files/gimgs/';
+	
+	$(document).ready(function()
+	{
+		setTimeout('move_up()', 1);
+	});
+</script> 
+</script>
+
+
+
+</head>
+
+<body class='section-14'>
+
+<div id="sidebar">
+	<a href="/" class="logo"><img alt="AZRECS" src="http://farm2.static.flickr.com/1080/5118927361_6dbb83bb33_m.jpg" /></a> 
+
+	<p class="contact">contato@azucrinarecords.net</p>
+
+<div id="newsletter">
+<p>inscrever/join newsletter</p>
+<form action="/newsletter/user/process.php" method="post" id="form-newsletter">
+<input id="email" maxlength="60" name="Email" type="text" value="e-mail" onclick="if(this.value=='e-mail') this.value='';" onblur="if(this.value=='') this.value='e-mail';" >
+<div id="buttons">
+<input name="pommo_signup" type="hidden" value="true">
+<input type="submit" value="ok" class="news_button"></div>
+</form>
+</div>
+
+	<div id="twitter_div">
+		<h3><a href="http://twitter.com/azrecs" id="twitter-link">@azrecs</a></h3>
+		<ul id="twitter_update_list"></ul>
+		<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/azrecs.json?callback=twitterCallback2&count=5"></script>
+	</div>
+	
+	<p class="free"><strong>Free Software Livre</strong><br/>
+	built with <a href='http://www.indexhibit.org/'>indexhibit</a></p>
+</div>
+
+<div id='menu'>
+<div class='container'>
+
+<div class="pre_hide">Azucrina Records</div>
+<ul>
+<li class='section-title'>Azucrina Records</li>
+<ul class="submenu">
+<li><a href='/' onclick="do_click();">Manifesto/About</a></li>
+<li><a href='/release/podcast/' onclick="do_click();">redes colaborativas</a></li>
+<li><a href='/azrecs-brasil/' onclick="do_click();">Blog</a></li>
+<li><a href='/azrecs/historico/' onclick="do_click();">Historico</a></li>
+<li><a href='/images/' onclick="do_click();">Videos</a></li>
+<li><a href='/images/2/' onclick="do_click();">Images</a></li>
+<li><a href='/posterflyer/' onclick="do_click();">Poster/Flyer</a></li>
+<li><a href='/links/netlabel-attack/' onclick="do_click();">Netlabel Attack</a></li>
+<li><a href='/azrecs/links/' onclick="do_click();">Links</a></li>
+</ul>
+</ul>
+
+<ul>
+<li class='section-title'>Releases</li>
+<ul class="submenu">
+<li><a href='/releases/radio/' onclick="do_click();">.Releases</a></li>
+<li><a href='/release/artists/' onclick="do_click();"><RADIO></a></li>
+<li><a href='/releases/uro/' onclick="do_click();">URO</a></li>
+<li><a href='/releases/eocopo/' onclick="do_click();">Eocopo</a></li>
+<li><a href='/releases/azrecs07/' onclick="do_click();">PDO</a></li>
+<li><a href='/releases/dittgen/' onclick="do_click();">Dittgen</a></li>
+<li><a href='/releases/elector/' onclick="do_click();">El.ector</a></li>
+<li><a href='/releases/valentin/' onclick="do_click();">Valentin</a></li>
+<li><a href='/releases/azrecs08/' onclick="do_click();">MMPCV</a></li>
+<li><a href='/releases/dj-mohak/' onclick="do_click();">DJ Mohak</a></li>
+<li><a href='/collaborators/cubopabx/' onclick="do_click();">CUBO/PABX</a></li>
+<li><a href='/collaborators/frank-berger/' onclick="do_click();">Frank Berger</a></li>
+<li><a href='/releases/retrigger-live/' onclick="do_click();">Retrigger (Live!)</a></li>
+<li><a href='/releases/mixtapepodcast/' onclick="do_click();">Mixtape/Podcast</a></li>
+<li><a href='/releases/azrecs09/' onclick="do_click();">Intersessões Project</a></li>
+<li><a href='/releases/various-artists-collection/' onclick="do_click();">Various Artists (Collection)</a></li>
+</ul>
+</ul>
+
+<ul>
+<li class='section-title'>sessions</li>
+<ul class="submenu">
+<li><a href='/intersessoes/sobreproject/' onclick="do_click();">intersessões</a></li>
+<li><a href='/sessions/nao-onda/' onclick="do_click();">Não Onda</a></li>
+<li><a href='/collaborators/4propri8/' onclick="do_click();">4propri8</a></li>
+<li class='active'><a href='/collaborators/pdo/' onclick="do_click();">PDO</a></li>
+<li><a href='/sessions/post/2/' onclick="do_click();">Post</a></li>
+<li><a href='/collaborators/mznu/' onclick="do_click();">Mznu</a></li>
+</ul>
+</ul>
+
+<ul>
+<ul class="submenu">
+<li><a href='/circuitos/sequencer/' onclick="do_click();">Sequencer</a></li>
+<li><a href='/circuits/contact-mic/' onclick="do_click();">Contact Mic</a></li>
+<li><a href='/circuits/pulse-wave/' onclick="do_click();">Pulse Wave</a></li>
+<li><a href='/circuits/panaz-bass/' onclick="do_click();">PanAZ Bass</a></li>
+<li><a href='/lab/circuit-bending/' onclick="do_click();">4voiceSynth</a></li>
+<li><a href='/circuits/desenhaudio/' onclick="do_click();">Desenhaudio</a></li>
+<li><a href='/circuits/creative-amp/' onclick="do_click();">Creative Amp</a></li>
+<li><a href='/circuits/light-theremin/' onclick="do_click();">Light Theremin</a></li>
+<li><a href='/circuits/atari-punk-jasmin/' onclick="do_click();">Atari Punk Jasmin</a></li>
+<li><a href='/circuits/4-voice-passive-mixer/' onclick="do_click();">4 Voice Passive Mixer</a></li>
+<li><a href='/circuitos/tremolo/' onclick="do_click();">Tremolo</a></li>
+<li><a href='/circuitos/motor-homopolar/' onclick="do_click();">Motor Homopolar</a></li>
+</ul>
+</ul>
+
+<ul>
+<ul class="submenu">
+<li><a href='/intersessoes/session-01/' onclick="do_click();">01</a></li>
+<li><a href='/intersessoes/02/' onclick="do_click();">02</a></li>
+<li><a href='/intersessoes/03/' onclick="do_click();">03</a></li>
+<li><a href='/intersessoes/04/' onclick="do_click();">04</a></li>
+<li><a href='/intersessoes/05/' onclick="do_click();">05</a></li>
+<li><a href='/intersessoes/06/' onclick="do_click();">06</a></li>
+<li><a href='/intersessoes/07/' onclick="do_click();">07</a></li>
+</ul>
+</ul>
+
+<ul>
+<li class='section-title'>LAB</li>
+<ul class="submenu">
+<li><a href='/circuits/pedais-portugues/' onclick="do_click();">schematics / eletronica artesanal</a></li>
+<li><a href='/workshops/palco-diy-feminista/' onclick="do_click();">Workshop_Palco DIY Feminista</a></li>
+<li><a href='/workshops/do-audio-ao-bending/' onclick="do_click();">Workshop_Do Audio ao Bending</a></li>
+<li><a href='/workshops/azucrinoise/' onclick="do_click();">Workshop_Azucrinoise</a></li>
+<li><a href='/workshops/hazlo-sonar/' onclick="do_click();">Workshop_Hazlo Sonar</a></li>
+<li><a href='/collaborators/desconcerto/' onclick="do_click();">Desconcerto</a></li>
+<li><a href='/artigo---relatos-de-uma-experiencia-com-selos-virt/' onclick="do_click();">Artigo - Sobre Selos Virtuais</a></li>
+<li><a href='/artigo---da-roda-ao-circuito/' onclick="do_click();">Artigo - Da Roda ao Circuito</a></li>
+</ul>
+</ul>
+
+<ul>
+<ul class="submenu">
+<li><a href='/collaborators/dj-mohak/' onclick="do_click();">DJ Mohak</a></li>
+<li><a href='/collaborators/chimbalab/' onclick="do_click();">Chimbalab</a></li>
+<li><a href='/collaborators/metanolfm/' onclick="do_click();">Metanol.FM</a></li>
+<li><a href='/collaborators/gambiologia/' onclick="do_click();">Gambiologia</a></li>
+<li><a href='/collaborators/andre-wakko/' onclick="do_click();">Andre Wakko</a></li>
+<li><a href='/collaborators/marginalia--lab/' onclick="do_click();">Marginalia + Lab</a></li>
+<li><a href='/collaborators/azucrina-collective/' onclick="do_click();">Azucrina Collective</a></li>
+<li><a href='/collaborators/productora-mutante/' onclick="do_click();">Productora Mutante</a></li>
+<li><a href='/collaborators/sudamerica-experimental/' onclick="do_click();">Sudamerica Experimental</a></li>
+</ul>
+</ul>
+
+
+
+
+<!-- you must provide a link to Indexhibit on your site someplace - thank you -->
+
+</div>	<!-- .container -->
+</div>	<!-- #menu -->
+
+<div id='content'>
+<div class='container'>
+
+<!-- text and image -->
+<a href="http://www.flickr.com/photos/azucrinarecords/6232471248/" title="Colaboradores Brasil by Azucrina Records, on Flickr"><img src="http://farm7.static.flickr.com/6057/6232471248_3bc0face1b_s.jpg" width="35" height="35" alt="Colaboradores Brasil"></a><br />
+<h3>PDO</h3><br />
+<em>puredata, live electronics, improvisation, experimental, programming, signal processing, circuits</em>
+
+<p><iframe src="http://player.vimeo.com/video/14549024?title=0&#38;byline=0&#38;portrait=0&#38;color=ffffff" width="505" height="335" frameborder="0"></iframe></p>
+
+<p><strong>Sobre/About</strong><br />
+Projeto experimental de improvisação musical utilizando patches e instrumentos programados em Pure Data, alem de investigação de objetos que podem interagir com o software como controladores via Arduino,sensores, LED's, cameras digitais e circuitos eletrônicos. O projeto surgiu em 2009 a partir de uma oficina no Plano B (RJ) do software ministrada por Paulo Casaes. Os integrantes se conheceram e a partir dai, criaram o PD Objetos para realizar performances e dar continuidade as pesquisas. Baseado no Rio de Janeiro, o projeto tem como casa-estúdio e laboratório as dependências do Plano B, onde são realizadas as oficinas, as apresentações e as fomentações necessárias para o desenvolvimento do projeto. As investigações em Pure Data incluem, em um nível mais baixo, processamento de sinais analógicos e digitais, real-time synthesis e discussões sobre human-computer interaction. Os objetivos do grupo são tanto o de explorar as possibilidades de desenvolver instrumentos personalizados (como samplers comandados via webcam, leitores que transformam sons em cores ou sintetizadores baseados em dinamicas do ambiente externo através de sensores e microfones), como o de compartilhar solucoes, dividir problemas e desenvolver códigos que podem ser distribuídos e re-apropriados pela comunidade.<br />
+<strong>PD Objetos é/ PD Objects is</strong><br />
+Daniel Gutnik/Felipe Norkus/Paulo Casaes/Negale Jones/Vanessa De Michelis<br />
+<strong>Plano B</strong> é Fernando e Fátima Torres</strong><br />
+<strong>Contact:</strong><br />
+contato@azucrinarecords.net<br />
+planoblapa@gmail.com</p>
+
+<p><a href="http://www.flickr.com/photos/azucrinarecords/4943583062/" target="_blank" title="PDO @ Tardes Tortas by Azucrina Records, on Flickr"><img src="http://farm5.static.flickr.com/4077/4943583062_33205947e4_m.jpg" width="500" height="375" alt="PDO @ Tardes Tortas"></a><br />
+<a href="http://www.flickr.com/photos/azucrinarecords/4943584020/" target="_blank" title="PDO @ Tardes Tortas by Azucrina Records, on Flickr"><img src="http://farm5.static.flickr.com/4073/4943584020_fe94c365d7_m.jpg" width="500" height="375" alt="PDO @ Tardes Tortas"></a></p>
+
+<h3>RELEASES EM AZRECS</h3>
+
+<h4>[AZRecs_10]PDO_Selected@ PlanoB  (10/07/2010) (NEW!)</h4><br />
+Improvisação musical utilizando patches e instrumentos programados em Pure Data.<br />
+<em>Improvisation using patches and instruments programmed in Pure Data.</em><br />
+<a href="http://www.archive.org/download/azrecs_08Pdo4SelectedPlanob/AZRecs_10PDO_4.zip" target="_blank">Download </a>Selected AZRecs (this release) / <a href="http://soundcloud.com/pdo-rj/ao-vivo-no-plano-b-2010-07-10" target="_blank">Download </a> Full Session (52" @ Soundcloud)
+
+<p><a href="http://www.flickr.com/photos/azucrinarecords/5355226489/" target="_blank" title="PDO_selected @ Plano B by Azucrina Records, on Flickr"><img src="http://farm6.static.flickr.com/5166/5355226489_f859ba36d3_m.jpg" width="100" height="100" alt="PDO_selected @ Plano B" /></a><br />
+<strong>Gravação/Recordings:</strong> Fernando Torres <br />
+<strong>Masterização/Mastering: </strong>Paulo Casaes <br />
+07/2010 - Rio de Janeiro - Brasil <br />
+http://www.planob.net <br />
+<strong>License:</strong>CreativeCommons_attribution-noncommercial-share alike. </p>
+
+<p><strong>1</strong><iframe name="fairplayer" scrolling="no" frameborder="0" width="34" height="40" src="http://official.fm/tracks/200766?fairplayer=mini"></iframe><strong>2</strong><iframe name="fairplayer" scrolling="no" frameborder="0" width="34" height="40" src="http://official.fm/tracks/200769?fairplayer=mini"></iframe><strong>3</strong><iframe name="fairplayer" scrolling="no" frameborder="0" width="34" height="40" src="http://official.fm/tracks/200772?fairplayer=mini"></iframe><strong>4</strong><iframe name="fairplayer" scrolling="no" frameborder="0" width="34" height="40" src="http://official.fm/tracks/200776?fairplayer=mini"></iframe></p>
+
+<h3>[AZRecs_08] PDO3 @ PlanoB </h3><br />
+ <a href="http://www.flickr.com/photos/azucrinarecords/4782054056/" target="_blank" title="[Azrecs07]PDO_3 por Azucrina Records, no Flickr"><br />
+<img src="http://farm5.static.flickr.com/4102/4782054056_baaca34d28.jpg" width="100" height="100" alt="[Azrecs07]PDO_3"></a><br />
+</a><a href="http://www.archive.org/download/azrecs_08Pdo3Planob/azrecs_08pdo_3.zip" target="_blank">Download (info available also in english inside) </a> <br />
+<strong>Release Info:</strong><br />
+<strong>Gravação/Recordings:</strong> Fernando Torres <br />
+<strong>Masterização/Mastering: </strong>Paulo Casaes <br />
+15/05/2010 - Rio de Janeiro - Brasil <br />
+http://www.planob.net <br />
+<strong>License:</strong>CreativeCommons_attribution-noncommercial-share alike. 
+
+<p><strong>B</strong>  <iframe name="fairplayer" scrolling="no" frameborder="0" width="34" height="18" src="http://fairtilizer.com/track/130922?fairplayer=mini"></iframe><strong>E</strong>  <iframe name="fairplayer" scrolling="no" frameborder="0" width="34" height="18" src="http://fairtilizer.com/track/130920?fairplayer=mini"></iframe><strong>A</strong>  <iframe name="fairplayer" scrolling="no" frameborder="0" width="34" height="18" src="http://fairtilizer.com/track/117087?fairplayer=mini"></iframe><strong>T</strong>  <iframe name="fairplayer" scrolling="no" frameborder="0" width="34" height="18" src="http://fairtilizer.com/track/132147?fairplayer=mini"></iframe></p>
+
+<h3>[AZRecs_07]PDO Session 1 @ Plano B</h3><br />
+<a href="http://www.flickr.com/photos/azucrinarecords/5591160384/" target="_blank" title="[AZRecs_07]PD Objetos by Azucrina Records, on Flickr"><img src="http://farm6.static.flickr.com/5309/5591160384_eefac5cd91_m.jpg" width="100" height="100" alt="[AZRecs_07]PD Objetos"></a><br />
+<a href="http://www.archive.org/download/azrecs_07pdObjetos2010/azrecs_07pdObjetos2010.zip" target="_blank">Download [AZRecs_07]PDO_1</a> <br />
+<strong>Release Info:</strong><br />
+<strong>Gravação/Recordings:</strong> Fernando Torres <br />
+<strong>Masterização/Mastering: </strong>Paulo Casaes <br />
+19/12/2009 - Rio de Janeiro - Brasil<br />
+http://www.planob.net 
+
+<p><strong>1</strong>  <iframe name="fairplayer" scrolling="no" frameborder="0" width="34" height="18" src="http://fairtilizer.com/track/78257?fairplayer=mini"></iframe><strong>2</strong>  <iframe name="fairplayer" scrolling="no" frameborder="0" width="34" height="18" src="http://fairtilizer.com/track/78316?fairplayer=mini"></iframe><strong>3</strong>  <iframe name="fairplayer" scrolling="no" frameborder="0" width="34" height="18" src="http://fairtilizer.com/track/78353?fairplayer=mini"></iframe></p>
+
+<p></p>
+<div class='cl'><!-- --></div>
+<!--[if lte IE 6]><style type='text/css'>.thumb-img { #top: -50%; }</style><![endif]-->
+
+<div id='img-container'>
+<div class='grow' id='img0' style='float: left;'>
+<div class='thumb'>
+<div class='thumb-it'>
+<a href='#' class='thumb-img'   onclick="toggleImg(0,2848,1896,200);return false;"><img src='/files/gimgs/th-28_1009209.jpg' alt='28_1009209.jpg' title='&nbsp;' /></a>
+</div>
+</div>
+<strong>&nbsp;&nbsp;&nbsp;</strong>
+<em>&nbsp;&nbsp;&nbsp;</em>
+</div>
+
+<div class='grow' id='img1' style='float: left;'>
+<div class='thumb'>
+<div class='thumb-it'>
+<a href='#' class='thumb-img'   onclick="toggleImg(1,2848,1896,200);return false;"><img src='/files/gimgs/th-28_1008032.jpg' alt='28_1008032.jpg' title='&nbsp;' /></a>
+</div>
+</div>
+<strong>&nbsp;&nbsp;&nbsp;</strong>
+<em>&nbsp;&nbsp;&nbsp;</em>
+</div>
+
+<div class='grow' id='img2' style='float: left;'>
+<div class='thumb'>
+<div class='thumb-it'>
+<a href='#' class='thumb-img'   onclick="toggleImg(2,2848,1896,200);return false;"><img src='/files/gimgs/th-28_1009206.jpg' alt='28_1009206.jpg' title='&nbsp;' /></a>
+</div>
+</div>
+<strong>&nbsp;&nbsp;&nbsp;</strong>
+<em>&nbsp;&nbsp;&nbsp;</em>
+</div>
+
+<div class='grow' id='img3' style='float: left;'>
+<div class='thumb'>
+<div class='thumb-it'>
+<a href='#' class='thumb-img'   onclick="toggleImg(3,2848,1896,200);return false;"><img src='/files/gimgs/th-28_1009208.jpg' alt='28_1009208.jpg' title='&nbsp;' /></a>
+</div>
+</div>
+<strong>&nbsp;&nbsp;&nbsp;</strong>
+<em>&nbsp;&nbsp;&nbsp;</em>
+</div>
+
+<div class='grow' id='img4' style='float: left;'>
+<div class='thumb'>
+<div class='thumb-it'>
+<a href='#' class='thumb-img'   onclick="toggleImg(4,1896,2848,200);return false;"><img src='/files/gimgs/th-28_pdo4-web.jpg' alt='28_pdo4-web.jpg' title='&nbsp;' /></a>
+</div>
+</div>
+<strong>&nbsp;&nbsp;&nbsp;</strong>
+<em>&nbsp;&nbsp;&nbsp;</em>
+</div>
+
+<div class='grow' id='img5' style='float: left;'>
+<div class='thumb'>
+<div class='thumb-it'>
+<a href='#' class='thumb-img'   onclick="toggleImg(5,1240,1748,200);return false;"><img src='/files/gimgs/th-28_webpdobjetosfev.jpg' alt='28_webpdobjetosfev.jpg' title='&nbsp;' /></a>
+</div>
+</div>
+<strong>&nbsp;&nbsp;&nbsp;</strong>
+<em>&nbsp;&nbsp;&nbsp;</em>
+</div>
+
+<div class='grow' id='img6' style='float: left;'>
+<div class='thumb'>
+<div class='thumb-it'>
+<a href='#' class='thumb-img'   onclick="toggleImg(6,707,999,200);return false;"><img src='/files/gimgs/th-28_pubimage.png' alt='28_pubimage.png' title='&nbsp;' /></a>
+</div>
+</div>
+<strong>&nbsp;&nbsp;&nbsp;</strong>
+<em>&nbsp;&nbsp;&nbsp;</em>
+</div>
+
+<div class='grow' id='img7' style='float: left;'>
+<div class='thumb'>
+<div class='thumb-it'>
+<a href='#' class='thumb-img'   onclick="toggleImg(7,413,583,200);return false;"><img src='/files/gimgs/th-28_pdflyerwebbaixa.jpg' alt='28_pdflyerwebbaixa.jpg' title='&nbsp;' /></a>
+</div>
+</div>
+<strong>&nbsp;&nbsp;&nbsp;</strong>
+<em>&nbsp;&nbsp;&nbsp;</em>
+</div>
+
+</div>
+
+<!-- end text and image -->
+
+</div> <!-- .container -->
+</div> <!-- #content -->
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("li.active").parent().parent().addClass("active");
+	});
+</script>
+</body>
+</html>
